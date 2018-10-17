@@ -1,0 +1,1 @@
+FOR /D %%a IN (c:\Repos\*) do start cmd /c (git -C %%~fa pull)
