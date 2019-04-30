@@ -1,12 +1,3 @@
-<# : batch script
-@echo off
-setlocal
-cd %~dp0
-powershell -executionpolicy remotesigned -Command "Invoke-Expression $([System.IO.File]::ReadAllText('%~f0'))"
-endlocal
-goto:eof
-#>
-# here write your powershell commands...
 Get-appxpackage -allusers *bing* | Remove-AppxPackage
 Get-appxprovisionedpackage -online | where-object {$_.packagename -like "*bing*"} | remove-appxprovisionedpackage -online
 Get-appxpackage -allusers *zune* | Remove-AppxPackage
@@ -49,14 +40,3 @@ Get-appxpackage -allusers *GetHelp* | Remove-AppxPackage
 Get-appxprovisionedpackage -online | where-object {$_.packagename -like "*GetHelp*"} | remove-appxprovisionedpackage -online
 Get-appxpackage -allusers *WindowsCamera* | Remove-AppxPackage
 Get-appxprovisionedpackage -online | where-object {$_.packagename -like "*WindowsCamera*"} | remove-appxprovisionedpackage -online
-#Get-appxpackage -allusers *HolographicFirstRun* | Remove-AppxPackage
-#Get-appxprovisionedpackage -online | where-object {$_.packagename -like "*HolographicFirstRun*"} | remove-appxprovisionedpackage -online
-
-
-
-
-
-
-
-
-
