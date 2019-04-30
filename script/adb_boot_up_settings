@@ -1,0 +1,7 @@
+settings put global device_provisioned 1
+settings put secure user_setup_complete 1
+
+settings put global captive_portal_fallback_url http://www.qualcomm.cn/generate_204
+settings put global captive_portal_http_url http://www.qualcomm.cn/generate_204
+settings put global captive_portal_https_url https://www.qualcomm.cn/generate_204
+settings put global captive_portal_other_fallback_urls http://www.qualcomm.cn/generate_204
