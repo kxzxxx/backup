@@ -5,7 +5,7 @@ set ignorecase
 set expandtab
 autocmd FileType make set noexpandtab
 
-set tags=./tags
+set tags=./tags;,tags
 
 if has("cscope")
 
