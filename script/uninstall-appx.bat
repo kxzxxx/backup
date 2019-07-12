@@ -10,7 +10,6 @@ Get-appxpackage -allusers *windowsmaps* | Remove-AppxPackage
 Get-appxpackage -allusers *getstarted* | Remove-AppxPackage
 Get-appxpackage -allusers *skypeapp* | Remove-AppxPackage
 Get-appxpackage -allusers *windowscamera* | Remove-AppxPackage
-Get-appxpackage -allusers *windowscommunicationsapps* | Remove-AppxPackage
 Get-appxpackage -allusers *windowsalarms* | Remove-AppxPackage
 Get-appxpackage -allusers *3dbuilder* | Remove-AppxPackage
 Get-appxpackage -allusers *Microsoft.People* | Remove-AppxPackage
