@@ -2,8 +2,9 @@ set nu
 set tabstop=4
 set shiftwidth=4
 set ignorecase
-set expandtab
-autocmd FileType make set noexpandtab
+set smartcase
+"set expandtab
+"autocmd FileType make set noexpandtab
 
 set tags=./tags;,tags
 
