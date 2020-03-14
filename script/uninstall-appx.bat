@@ -2,7 +2,6 @@ Get-appxpackage -allusers *bing* | Remove-AppxPackage
 Get-appxpackage -allusers *zune* | Remove-AppxPackage
 Get-appxpackage -allusers *oneconne* | Remove-AppxPackage
 Get-appxpackage -allusers *soundrecorder* | Remove-AppxPackage
-Get-appxpackage -allusers *Office* | Remove-AppxPackage
 Get-appxpackage -allusers *phone* | Remove-AppxPackage
 Get-appxpackage -allusers *ConnectivityStore* | Remove-AppxPackage
 Get-appxpackage -allusers *Messaging* | Remove-AppxPackage
@@ -14,7 +13,6 @@ Get-appxpackage -allusers *windowsalarms* | Remove-AppxPackage
 Get-appxpackage -allusers *3dbuilder* | Remove-AppxPackage
 Get-appxpackage -allusers *Microsoft.People* | Remove-AppxPackage
 Get-appxpackage -allusers *solitairecollection* | Remove-AppxPackage
-Get-appxpackage -allusers *xboxapp* | Remove-AppxPackage
 Get-appxpackage -allusers *WindowsFeedbackHub* | Remove-AppxPackage
 Get-appxpackage -allusers *GetHelp* | Remove-AppxPackage
 Get-appxpackage -allusers *WindowsCamera* | Remove-AppxPackage
